@@ -7,7 +7,7 @@ This portfolio highlights my skills, experience, featured projects, and contact 
 
 ## 🌐 Live Demo
 
-- 🌐 **Live Demo: https://portfolio.vercel.app/  
+- 🌐 **Live Demo: https://afsarali-portfolio.vercel.app/  
 - 📦 **Source Code: https://github.com/AfsarWebDev/portfolio  
 
 ---
