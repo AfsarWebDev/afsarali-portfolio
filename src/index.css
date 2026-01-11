@@ -1,5 +1,7 @@
-*{
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 img {
@@ -7,8 +9,8 @@ img {
   height: auto;
 }
 
-body{
-  height: 100vh;
+html, body {
+  min-height: 100%;
   overflow-x: hidden;
   background: #161513;
   color: white;

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 70px;
-  margin: 50px 150px;
+  padding: 50px 100px;
 }
 
 .mywork-title {
@@ -11,18 +11,21 @@
 }
 
 .mywork-title h1 {
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .mywork-title img {
   position: absolute;
   height: 50px;
-  top: 90px;
-  right: -15px;
-  z-index: -1;
+  top: 105px;
+  right: -10px;
+  z-index: 1;
 }
 
 .mywork-container {
+  width: 100%;
+  max-width: 1100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
@@ -37,7 +40,7 @@
 .mywork-card img:first-child {
   width: 100%;
   border-radius: 20px;
-  transition: 0.3s;
+  transition: transform 0.3s ease, border 0.3s ease;
 }
 
 .mywork-card img:first-child:hover {
@@ -82,12 +85,24 @@
 /* TABLET (≤768px) */
 @media (max-width: 768px) {
   .mywork {
-    margin: 60px 60px;
+    padding: 64px 24px;
     align-items: flex-start;
+    gap: 70px;
+  }
+
+  .about-title img {
+        width: 130px;
+        top: 60px;
+        right: -10px;
+    }
+
+  .mywork-title h1 {
+    font-size: 48px;
   }
 
   .mywork-container {
     grid-template-columns: 1fr;
+    gap: 40px;
   }
 
   .project-btn {
@@ -99,7 +114,21 @@
 /* MOBILE (≤480px) */
 @media (max-width: 480px) {
   .mywork {
-    margin: 50px 24px;
+    padding: 50px 16px;
+  }
+
+  .mywork-title img {
+    height: 50px;
+    top: 70px;
+    left: 130px;
+  }
+
+  .mywork-title h1 {
+    font-size: 36px;
+  }
+
+  .mywork-container {
+    gap: 32px;
   }
 
   .project-btn {
