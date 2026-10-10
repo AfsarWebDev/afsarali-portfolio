@@ -1,6 +1,7 @@
 import project_1 from '../assets/project_1.png'
 import project_2 from '../assets/project_2.png'
 import project_3 from '../assets/project_3.png'
+import project_4 from '../assets/project_4.png'
 
 const mywork_data = [
     {
@@ -20,6 +21,12 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project_3,
         live_link:"https://bluebrisk.vercel.app/"
+    },
+    {
+        w_no:4,
+        w_name:"Web design",
+        w_img:project_4,
+        live_link:"https://afsarali-portfolio.vercel.app/"
     }
 ]
  
