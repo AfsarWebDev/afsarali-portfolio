@@ -6,25 +6,25 @@ import project_4 from '../assets/project_4.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"Job Tracker App",
         w_img:project_1,
         live_link:"https://job-tracker-app-blue-mu.vercel.app/"
     },
     {
         w_no:2,
-        w_name:"Web design",
+        w_name:"Resume Builder",
         w_img:project_2,
         live_link:"https://resume-builder-sage-theta.vercel.app/"
     },
     {
         w_no:3,
-        w_name:"Web design",
+        w_name:"Blue Brisk",
         w_img:project_3,
         live_link:"https://bluebrisk.vercel.app/"
     },
     {
         w_no:4,
-        w_name:"Web design",
+        w_name:"Cloths Store",
         w_img:project_4,
         live_link:"https://afsarali-portfolio.vercel.app/"
     }
